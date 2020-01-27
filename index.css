@@ -1,0 +1,150 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+  background: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+main {
+  background: url(background.jpg) no-repeat center bottom fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #f05a23;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin-bottom: .5rem;
+  text-align: center;;
+}
+
+.display {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4rem;
+  color: #f05a23;
+  font-weight: 400;
+}
+
+@media(min-width:36rem) {
+  .display {
+    font-size: 12rem;
+  }
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+@media(min-width:36rem) {
+  h2{
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 80rem;
+  padding: 0 1rem;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+  width: 100%;
+  max-width: 20rem;
+  grid-gap: .5rem;
+}
+
+.social a {
+  display: inline-block;
+}
+
+.ico {
+  height: auto;
+  width: 3rem;
+  transition: transform 300ms ease;
+  display: block;
+}
+
+.ico:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+@media(min-width:36rem) {
+  footer .container{
+    flex-direction: row;
+  }
+}
+
+.hero {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
