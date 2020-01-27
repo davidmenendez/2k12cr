@@ -17,7 +17,7 @@ body {
 }
 
 main {
-  background: url(background.jpg) no-repeat center bottom fixed;
+  background: url(../images/background.jpg) no-repeat center bottom fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
