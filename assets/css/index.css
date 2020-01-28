@@ -27,7 +27,7 @@ main {
   color: #fff;
 }
 
-@media(min-width:36rem) {
+@media (min-width: 576px) {
   main {
     background-attachment: fixed;
   }
@@ -53,7 +53,13 @@ h3 {
   font-weight: 400;
 }
 
-@media(min-width:36rem) {
+@media (min-width: 576px) {
+  .display {
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 768px) {
   .display {
     font-size: 12rem;
   }
@@ -63,7 +69,7 @@ h2 {
   font-size: 2rem;
 }
 
-@media(min-width:36rem) {
+@media (min-width: 576px) {
   h2{
     font-size: 2.5rem;
   }
@@ -144,7 +150,7 @@ footer .container {
   flex-direction: column-reverse;
 }
 
-@media(min-width:36rem) {
+@media (min-width: 576px) {
   footer .container{
     flex-direction: row;
   }
