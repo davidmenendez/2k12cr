@@ -11,7 +11,9 @@
 @media (min-width: 1200px) { ... }
 */
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -119,9 +121,8 @@ section {
 }
 
 .logo {
-  height: auto;
   width: 100%;
-  max-width: 40rem;
+  margin-bottom: 1rem;
 }
 
 .social {
