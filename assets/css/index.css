@@ -36,7 +36,6 @@ main {
   background-attachment: scroll;
   background-size: cover;
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 100vh;
   color: #fff;
@@ -116,8 +115,9 @@ section {
 
 .container {
   width: 100%;
-  max-width: 80rem;
-  padding: 0 1rem;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .social {
@@ -163,8 +163,6 @@ footer {
   background: #222;
   color: #fff;
   padding: 1rem 0rem;
-  display: flex;
-  justify-content: center;
 }
 
 footer .container {
