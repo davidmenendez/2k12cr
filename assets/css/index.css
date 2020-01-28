@@ -42,6 +42,13 @@ main {
   color: #fff;
 }
 
+img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
+
 @media (min-width: 992px) {
   main {
     background-attachment: fixed;
@@ -121,7 +128,6 @@ section {
 }
 
 .logo {
-  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -186,7 +192,5 @@ footer .container {
 }
 
 .hero {
-  max-width: 100%;
-  display: block;
   margin-bottom: 1rem;
 }
