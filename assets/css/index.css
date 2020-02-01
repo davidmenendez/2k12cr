@@ -211,14 +211,3 @@ small {
   height: 100%; 
 }
 
-.grid {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 1fr;
-}
-
-@media (min-width: 576px) {
-  .grid {
-    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
-  }
-}
