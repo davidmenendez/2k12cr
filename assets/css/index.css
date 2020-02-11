@@ -32,7 +32,7 @@ body {
 }
 
 main {
-  background: url(../images/background.jpg) no-repeat center bottom;
+  background: url(../images/2k12cr_background.jpg) no-repeat center bottom;
   background-attachment: scroll;
   background-size: cover;
   display: flex;
