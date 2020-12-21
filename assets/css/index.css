@@ -154,6 +154,17 @@ img {
 
 header {
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 999999;
+  background: #151515;
+}
+
+@media (min-width: 576px) {
+  header {
+    background: none;
+    position: static;
+  }
 }
 
 .splash {
@@ -162,7 +173,7 @@ header {
   background-attachment: scroll;
 }
 
-@media (min-width: 576px) {	
+@media (min-width: 576px) {
   .splash {	
     background-attachment: fixed;	
   }	
@@ -250,4 +261,11 @@ footer {
   color: #fff;
   padding: 1rem 0;
   text-align: center;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 576px) {
+  footer {
+    margin-bottom: 0;
+  }
 }
