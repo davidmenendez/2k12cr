@@ -159,6 +159,13 @@ header {
 .splash {
   background: url("../images/2k12cr_background.jpg") no-repeat center center fixed;
   background-size: cover;
+  background-attachment: scroll;
+}
+
+@media (min-width: 576px) {	
+  .splash {	
+    background-attachment: fixed;	
+  }	
 }
 
 .social {
