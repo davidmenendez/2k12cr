@@ -221,15 +221,7 @@ header {
 }
 
 .social svg {
-  height: auto;
-  width: 3rem;
-  display: block;
-}
-
-@media (min-width: 576px) {
-  .social svg {
-    width: 2rem;
-  }
+  fill: currentColor;
 }
 
 .hero {
